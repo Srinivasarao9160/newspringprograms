@@ -1,0 +1,100 @@
+2021-07-14 17:13:57,024 INFO  StartupInfoLogger:55 -[] Starting DemoLogger14Application using Java 16.0.1 on ojas-dd416 with PID 876 (C:\srinivas\newspringtasks\DemoLogger1-4\target\classes started by sg21131 in C:\srinivas\newspringtasks\DemoLogger1-4)
+2021-07-14 17:13:57,034 INFO  SpringApplication:659 -[] No active profile set, falling back to default profiles: default
+2021-07-14 17:13:57,134 INFO  TomcatWebServer:108 -[] Tomcat initialized with port(s): 8082 (http)
+2021-07-14 17:13:57,134 INFO  DirectJDKLog:173 -[] Starting service [Tomcat]
+2021-07-14 17:13:57,134 INFO  DirectJDKLog:173 -[] Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-14 17:13:57,146 INFO  DirectJDKLog:173 -[] Initializing Spring embedded WebApplicationContext
+2021-07-14 17:13:57,146 INFO  ServletWebServerApplicationContext:290 -[] Root WebApplicationContext: initialization completed in 110 ms
+2021-07-14 17:13:57,179 WARN  OptionalLiveReloadServer:61 -[] Unable to start LiveReload server
+2021-07-14 17:13:57,199 INFO  TomcatWebServer:220 -[] Tomcat started on port(s): 8082 (http) with context path ''
+2021-07-14 17:13:57,201 INFO  StartupInfoLogger:61 -[] Started DemoLogger14Application in 0.234 seconds (JVM running for 958.299)
+2021-07-14 17:13:57,202 INFO  ConditionEvaluationDeltaLoggingListener:63 -[] Condition evaluation unchanged
+2021-07-14 17:14:02,150 INFO  StartupInfoLogger:55 -[] Starting DemoLogger14Application using Java 16.0.1 on ojas-dd416 with PID 19164 (C:\srinivas\newspringtasks\DemoLogger1-4\target\classes started by sg21131 in C:\srinivas\newspringtasks\DemoLogger1-4)
+2021-07-14 17:14:02,152 INFO  SpringApplication:659 -[] No active profile set, falling back to default profiles: default
+2021-07-14 17:14:02,187 INFO  DeferredLog:255 -[] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-14 17:14:02,188 INFO  DeferredLog:255 -[] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-14 17:14:02,788 INFO  TomcatWebServer:108 -[] Tomcat initialized with port(s): 8082 (http)
+2021-07-14 17:14:02,795 INFO  DirectJDKLog:173 -[] Starting service [Tomcat]
+2021-07-14 17:14:02,795 INFO  DirectJDKLog:173 -[] Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-14 17:14:02,842 INFO  DirectJDKLog:173 -[] Initializing Spring embedded WebApplicationContext
+2021-07-14 17:14:02,843 INFO  ServletWebServerApplicationContext:290 -[] Root WebApplicationContext: initialization completed in 655 ms
+2021-07-14 17:14:03,066 WARN  OptionalLiveReloadServer:61 -[] Unable to start LiveReload server
+2021-07-14 17:14:03,077 WARN  AbstractApplicationContext:591 -[] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8082 is already in use
+2021-07-14 17:14:03,079 INFO  DirectJDKLog:173 -[] Stopping service [Tomcat]
+2021-07-14 17:14:03,087 INFO  ConditionEvaluationReportLoggingListener:136 -[] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-14 17:14:03,099 ERROR LoggingFailureAnalysisReporter:40 -[] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+2021-07-14 17:14:31,646 INFO  StartupInfoLogger:55 -[] Starting DemoLogger14Application using Java 16.0.1 on ojas-dd416 with PID 11440 (C:\srinivas\newspringtasks\DemoLogger1-4\target\classes started by sg21131 in C:\srinivas\newspringtasks\DemoLogger1-4)
+2021-07-14 17:14:31,648 INFO  SpringApplication:659 -[] No active profile set, falling back to default profiles: default
+2021-07-14 17:14:31,679 INFO  DeferredLog:255 -[] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-14 17:14:31,680 INFO  DeferredLog:255 -[] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-14 17:14:32,231 INFO  TomcatWebServer:108 -[] Tomcat initialized with port(s): 8082 (http)
+2021-07-14 17:14:32,237 INFO  DirectJDKLog:173 -[] Starting service [Tomcat]
+2021-07-14 17:14:32,237 INFO  DirectJDKLog:173 -[] Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-14 17:14:32,280 INFO  DirectJDKLog:173 -[] Initializing Spring embedded WebApplicationContext
+2021-07-14 17:14:32,280 INFO  ServletWebServerApplicationContext:290 -[] Root WebApplicationContext: initialization completed in 600 ms
+2021-07-14 17:14:32,490 WARN  OptionalLiveReloadServer:61 -[] Unable to start LiveReload server
+2021-07-14 17:14:32,500 WARN  AbstractApplicationContext:591 -[] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8082 is already in use
+2021-07-14 17:14:32,502 INFO  DirectJDKLog:173 -[] Stopping service [Tomcat]
+2021-07-14 17:14:32,511 INFO  ConditionEvaluationReportLoggingListener:136 -[] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-07-14 17:14:32,522 ERROR LoggingFailureAnalysisReporter:40 -[] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8082 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8082 or configure this application to listen on another port.
+
+2021-07-14 17:14:41,801 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 -[] Application shutdown requested.
+2021-07-14 17:14:54,589 INFO  StartupInfoLogger:55 -[] Starting DemoLogger14Application using Java 16.0.1 on ojas-dd416 with PID 20668 (C:\srinivas\newspringtasks\DemoLogger1-4\target\classes started by sg21131 in C:\srinivas\newspringtasks\DemoLogger1-4)
+2021-07-14 17:14:54,591 INFO  SpringApplication:659 -[] No active profile set, falling back to default profiles: default
+2021-07-14 17:14:54,622 INFO  DeferredLog:255 -[] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-14 17:14:54,623 INFO  DeferredLog:255 -[] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-14 17:14:55,252 INFO  TomcatWebServer:108 -[] Tomcat initialized with port(s): 8082 (http)
+2021-07-14 17:14:55,260 INFO  DirectJDKLog:173 -[] Starting service [Tomcat]
+2021-07-14 17:14:55,260 INFO  DirectJDKLog:173 -[] Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-14 17:14:55,329 INFO  DirectJDKLog:173 -[] Initializing Spring embedded WebApplicationContext
+2021-07-14 17:14:55,329 INFO  ServletWebServerApplicationContext:290 -[] Root WebApplicationContext: initialization completed in 706 ms
+2021-07-14 17:14:55,545 WARN  OptionalLiveReloadServer:61 -[] Unable to start LiveReload server
+2021-07-14 17:14:55,678 INFO  TomcatWebServer:220 -[] Tomcat started on port(s): 8082 (http) with context path ''
+2021-07-14 17:14:55,698 INFO  StartupInfoLogger:61 -[] Started DemoLogger14Application in 1.375 seconds (JVM running for 1.88)
+2021-07-14 17:15:12,352 INFO  DirectJDKLog:173 -[] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-14 17:15:12,353 INFO  FrameworkServlet:525 -[] Initializing Servlet 'dispatcherServlet'
+2021-07-14 17:15:12,353 INFO  FrameworkServlet:547 -[] Completed initialization in 0 ms
+2021-07-14 17:15:16,385 INFO  MessageController:16 -[] [getMessage] info message
+2021-07-14 17:15:16,386 WARN  MessageController:17 -[] [getMessage] warn message
+2021-07-14 17:15:16,386 ERROR MessageController:18 -[] [getMessage] error message
+2021-07-14 17:15:16,386 DEBUG MessageController:19 -[] [getMessage] debug message
+2021-07-14 17:28:07,029 INFO  StartupInfoLogger:55 -[] Starting DemoLogger14Application using Java 16.0.1 on ojas-dd416 with PID 20668 (C:\srinivas\newspringtasks\DemoLogger1-4\target\classes started by sg21131 in C:\srinivas\newspringtasks\DemoLogger1-4)
+2021-07-14 17:28:07,030 INFO  SpringApplication:659 -[] No active profile set, falling back to default profiles: default
+2021-07-14 17:28:07,141 INFO  TomcatWebServer:108 -[] Tomcat initialized with port(s): 8082 (http)
+2021-07-14 17:28:07,142 INFO  DirectJDKLog:173 -[] Starting service [Tomcat]
+2021-07-14 17:28:07,142 INFO  DirectJDKLog:173 -[] Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-14 17:28:07,153 INFO  DirectJDKLog:173 -[] Initializing Spring embedded WebApplicationContext
+2021-07-14 17:28:07,153 INFO  ServletWebServerApplicationContext:290 -[] Root WebApplicationContext: initialization completed in 122 ms
+2021-07-14 17:28:07,192 WARN  OptionalLiveReloadServer:61 -[] Unable to start LiveReload server
+2021-07-14 17:28:07,216 INFO  TomcatWebServer:220 -[] Tomcat started on port(s): 8082 (http) with context path ''
+2021-07-14 17:28:07,224 INFO  StartupInfoLogger:61 -[] Started DemoLogger14Application in 0.216 seconds (JVM running for 793.406)
+2021-07-14 17:28:07,225 INFO  ConditionEvaluationDeltaLoggingListener:63 -[] Condition evaluation unchanged

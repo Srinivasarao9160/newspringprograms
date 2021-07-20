@@ -1,0 +1,42 @@
+<html xmlns:th="http://www.thymleaf/">
+<head>
+</head>
+<body>
+	<form action="#" method="post" th:action="@{/saveemployee}"
+		th:object="${emps}">
+
+		<h1
+			style="background-color: maroon; color: white; padding: 20px; text-align: center;">
+			Employee Registration Page
+			</h1>
+
+		<table align=center>
+
+			
+			<tr>
+				<td>First Name:</td>
+				<td><input type="text" th:field="*{firstName}"><br></td>
+				
+				</tr>
+			<tr>
+				<td>Last Name:</td>
+				<td><input type="text" th:field="*{lastName}"><br></td>
+			</tr>
+			<tr>
+				<td>Mail ID:</td>
+				<td><input type="text" th:field="*{gmail}"><br>
+				</td>
+			</tr>
+			
+			<tr>
+				<td><input type="submit" value="AddEmployee" /></td>
+			</tr></form>
+			
+			<tr>
+				<td><h4><a href="http://localhost:8082/allemps">ViewEmployees</a></h4></td>
+			</tr></form>
+			
+			
+			
+</body>
+</html>

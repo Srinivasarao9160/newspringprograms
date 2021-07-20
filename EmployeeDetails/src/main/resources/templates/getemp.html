@@ -1,0 +1,33 @@
+<html xmlns:th="html://www.thymleaf.org/">
+<head>
+</head>
+<body>
+
+	<h1
+		style="background-color: maroon; color: white; padding: 20px; text-align: center;">
+		All Employee Details</h1>
+	<!--/* this is comment line */-->
+	<table align=center>
+		<tr>
+			<th>Employee ID</th>
+			<th>Employee FirstName</th>
+			<th>Employee LastName</th>
+			<th>Employee Gmail</th>
+			<th>Action</th>
+
+		</tr>
+		<tr th:each="ob:${emplist}">
+			<td th:text="${ob.eid}"></td>
+			<td th:text="${ob.firstName}"></td>
+			<td th:text="${ob.lastName}"></td>
+			<td th:text="${ob.gmail}"></td>
+			
+			<td><a th:href="@{/edit/{eid}(eid=${ob.eid})}" role="button">Edit</a></td>
+			<td><a th:href="@{/deleteemp(eid=${ob.eid})}" role="button">Delete</a></td>
+
+			
+
+		</tr>
+	</table>
+</body>
+</html>

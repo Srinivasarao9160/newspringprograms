@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="#" th:action="@{/update/{eid}(eid=${emmp.eid})}" th:object="${emmp}" method="post">
+<h1
+			style="background-color: maroon; color: white; padding: 20px; text-align: center;">
+			Edit Employee Details
+			</h1>
+    <label for="firstName">FirstName</label>
+    <input type="text" th:field="*{firstName}" ><br>
+   
+    <label for="lastName">LastName</label>
+    <input type="text" th:field="*{lastName}"><br>
+   
+    <label for="gmail">Gmail</label>
+     <input type="text" th:field="*{gmail}"><br>
+   
+    <input type="submit" value="Update Employee">  
+</form>
+</body>
+</html>
